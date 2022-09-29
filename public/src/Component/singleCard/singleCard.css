@@ -1,0 +1,26 @@
+
+.singleCard{
+	width: 300px;
+	height: auto;
+	background-color:lightskyblue;
+	border-radius: 8px;
+	text-align: center;
+	padding: 20px 0px;
+
+}
+.singleCard img{
+	width: 250px;
+	height: 200px;
+	background-color: yellow;
+	padding: 10px;
+}
+.card-btn{
+	padding: 10px 50px;
+	background-color: white;
+	border-radius: 5px;
+	outline: none;
+
+}
+.card-btn:hover{
+	background-color: lightslategrey;
+}

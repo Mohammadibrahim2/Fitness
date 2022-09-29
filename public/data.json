@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "tittle":"Dumble",
+    "age":"20-25",
+    "time":25,
+    "quantity":0,
+    "body":"Amet minim mollit non deserunt amet sint.",
+    "image":"https://www.concordia.ca/content/concordia/en/campus-life/recreation/facilities/le-gym/_jcr_content/content-main/box_2132300134/box-parsys/image.img.jpg/1638815602709.jpg"
+
+  },
+  {
+    "id": "2",
+    "tittle":"Dumble",
+    "age":"20-25",
+    "time":20,
+    "quantity":0,
+    "body":"Amet minim mollit non deserunt amet sint.",
+     "image":"./gym2.jpg"
+
+
+  },
+  {
+    "id": "3",
+    "tittle":"Dumble",
+    "age":"20-25",
+    "time":35,
+    "quantity":0,
+    "body":"Amet minim mollit non deserunt amet sint.",
+     "image":"./gym3.jpg"
+
+
+  },
+  {
+    "id": "4",
+    "tittle":"Dumble",
+    "age":"20-25",
+    "time":40,
+    "quantity":0,
+    "body":"Amet minim mollit non deserunt amet sint.",
+     "image":"./gym4.jpg"
+
+
+  },
+  {
+    "id": "5",
+    "tittle":"Dumble",
+    "age":"20-25",
+    "time":30,
+    "quantity":0,
+    "body":"Amet minim mollit non deserunt amet sint.", 
+     "image":"./gym5.jpg"
+
+
+  },
+  {
+    "id": "6",
+    "tittle":"Dumble",
+    "age":"20-25",
+    "time":25,
+    "quantity":0,
+    "body":"Amet minim mollit non deserunt amet sint.",
+     "image":"./gym6.jpg"
+
+
+  }
+]  

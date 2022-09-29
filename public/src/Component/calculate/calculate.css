@@ -1,0 +1,62 @@
+
+
+.personal-info{
+	width: 350px;
+	background-color: #eee;
+	margin-bottom: 100px;
+	padding: 15px;
+	border-radius: 8px;
+
+}
+.self-info{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 300px;
+	height: 150px;
+
+}
+.self-info img{
+
+width: 70px;
+height: 70px;
+border-radius: 50%;
+}
+.self-info .adress p {
+	margin-top: 0;
+	margin-bottom: 2px;
+
+}	
+.physical-info p{
+margin-top: -10px;
+
+}
+.physical-info,.time,.total-exercise-time,.total-break-time{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 20px;
+	background-color: paleturquoise;
+	height: 50px;
+	padding: 15px;
+	margin-top: 5px;
+}
+
+.time button{
+	padding: 10px 10px;
+	background-color: honeydew;
+	border-radius: 50%;
+}
+.time button:hover{
+	background-color:darkcyan;
+
+}
+.finish-btn{
+	background-color: darkblue;
+	color: white;
+	padding: 10px 80px ;
+	border-radius: 5px;
+	margin: 30px 5px;
+	outline: none;
+
+}
