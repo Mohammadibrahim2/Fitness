@@ -7,6 +7,7 @@ import{useState,useEffect}from'react';
 const Calculate=(props)=>{
 
 const [breaktime,setBreakTime]=useState([])
+
 const {calculate,toastComming}=props
 
 
@@ -23,7 +24,7 @@ for(const time in storedTime){
        }
        setBreakTime(savedTime)
 }
-},[]);
+},[calculate]);
 
 
  //getting stored data
@@ -36,16 +37,6 @@ breakTimeCart=JSON.parse(storeTime)
 }
 return breakTimeCart
  };
-
-
-
-
-
-
-
-
-
-
 
 let totalTime=0
 for(const time of calculate){

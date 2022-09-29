@@ -10,7 +10,7 @@ return(
 <div className='header'>
 
 
-<h1>Header hork go fast </h1>
+<h1>Fitness World </h1>
 </div>
 
 
