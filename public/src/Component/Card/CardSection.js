@@ -46,7 +46,7 @@ const storeTime=localStorage.getItem('timeCart')
 if(storeTime){
 timeCart=JSON.parse(storeTime)
 }
-//add quantity
+
  const quantity=timeCart[Time]
     if(quantity){
         const newQuantity=parseInt(quantity)+1;
@@ -107,7 +107,7 @@ toastComming={toastComming}
   responsible only for the view layer of the application.
    It is maintained by Facebook.
 React uses a declarative paradigm that makes it easier to reason 
-about our application and aims to be both efficient and flexible.
+about our all application and aims to be both efficient and flexible.
  It designs simple views for each state in our application, and 
  React will efficiently update and render just the right component when 
  your data changes. The declarative view makes our code more

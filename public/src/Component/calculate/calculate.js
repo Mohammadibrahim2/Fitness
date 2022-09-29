@@ -23,7 +23,7 @@ for(const time in storedTime){
        }
        setBreakTime(savedTime)
 }
-},[]);
+},[calculate]);
 
 
  //getting stored data
