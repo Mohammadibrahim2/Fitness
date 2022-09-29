@@ -125,11 +125,11 @@ return(
 
 <div className="total-break-time">
 <h2>Break time</h2>
-<p>{breaktime} seconds</p>
+<p>{breaktime} Seconds</p>
 </div>
 
 
-<button onClick={()=>toastComming()} className="finish-btn">Activity completed</button>
+<button onClick={window.alert("successfully done!")} className="finish-btn">Activity completed</button>
 </div>
 
 
