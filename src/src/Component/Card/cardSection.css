@@ -1,0 +1,46 @@
+
+
+.container{
+	margin:10px;
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+}
+.card-container{
+	width: 700px;
+	height: 600px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+
+}
+
+.blog{
+	background-color:snow;
+	padding: 0 40px;
+}
+.difference{
+	display: flex;
+	justify-content: space-around;
+}
+
+@media only screen and (max-width:650px){
+
+.container{
+	grid-template-columns:  1fr;
+
+}
+.card-container{
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+	width: 350px;
+	height: 1800px;
+}
+.personal-info{
+	margin: 0 auto;
+}
+
+
+}
+
+
+

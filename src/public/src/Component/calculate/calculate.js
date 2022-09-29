@@ -85,12 +85,12 @@ return(
 
 <div className="physical-info">
 <div>
-<h2>80 kg</h2>
-<p>Weight</p></div>
+<h2>85 kg</h2>
+<p>weight</p></div>
 
 <div>
 <h2>75 kg</h2>
-<p>Weight</p></div>
+<p>weight</p></div>
 
 <div>
 <h2> 70 kg</h2>
@@ -99,7 +99,7 @@ return(
 
 </div>
 <div className="new1">
-<h3>Add a Break</h3>
+<h3>Add A Break</h3>
 </div>
 
 <div className="time">

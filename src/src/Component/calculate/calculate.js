@@ -7,6 +7,7 @@ import{useState,useEffect}from'react';
 const Calculate=(props)=>{
 
 const [breaktime,setBreakTime]=useState([])
+
 const {calculate,toastComming}=props
 
 
@@ -68,28 +69,25 @@ breakTimeCart=JSON.parse(storeTime)
     }
     localStorage.setItem('breakTimeCart',JSON.stringify(breakTimeCart))
 };
-const toast=()=>{
-    window.alert(successfully done!)
-}
 
 return(
 <div className="personal-info">
 <div className="self-info">
 <img src={img}alt="ami ace"/>
 <div className="adress">
-<p>Mohammad Ibrahim</p>
-<p>Noakhali,Bangladesh</p>
+<p>Mohammd Ibrahim</p>
+<p>Noakhali,,bangladesh</p>
 </div>
 </div>
 
 
 <div className="physical-info">
 <div>
-<h2>80 kg</h2>
+<h2>90 kg</h2>
 <p>Weight</p></div>
 
 <div>
-<h2>75 kg</h2>
+<h2>80 kg</h2>
 <p>Weight</p></div>
 
 <div>
@@ -99,7 +97,7 @@ return(
 
 </div>
 <div className="new1">
-<h3>Add a Break</h3>
+<h3>Add A Break</h3>
 </div>
 
 <div className="time">
@@ -113,16 +111,16 @@ return(
 <h2>Exercise Details</h2>
 <div className="total-exercise-time">
 <h2>Exercise time</h2>
-<p>{totalTime} Seconds</p>
+<p>{totalTime} seconds</p>
 </div>
 
 <div className="total-break-time">
 <h2>Break time</h2>
-<p>{breaktime} Seconds</p>
+<p>{breaktime} seconds</p>
 </div>
 
 
-<button onClick={toast} className="finish-btn">Activity completed</button>
+<button onClick={()=>toastComming()} className="finish-btn">Activity completed</button>
 </div>
 
 
