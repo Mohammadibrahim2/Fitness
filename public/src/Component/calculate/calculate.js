@@ -84,7 +84,7 @@ return(
 <div className="self-info">
 <img src={img}alt="ami ace"/>
 <div className="adress">
-<p>Mohammd Ibrahim</p>
+<p>Mohammad Ibrahim</p>
 <p>Noakhali,Bangladesh</p>
 </div>
 </div>
@@ -92,11 +92,11 @@ return(
 
 <div className="physical-info">
 <div>
-<h2>90 kg</h2>
+<h2>85 kg</h2>
 <p>Weight</p></div>
 
 <div>
-<h2>80 kg</h2>
+<h2>75 kg</h2>
 <p>Weight</p></div>
 
 <div>
@@ -120,7 +120,7 @@ return(
 <h2>Exercise Details</h2>
 <div className="total-exercise-time">
 <h2>Exercise time</h2>
-<p>{totalTime} seconds</p>
+<p>{totalTime} Seconds</p>
 </div>
 
 <div className="total-break-time">
