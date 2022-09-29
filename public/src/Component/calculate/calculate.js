@@ -78,6 +78,9 @@ breakTimeCart=JSON.parse(storeTime)
     }
     localStorage.setItem('breakTimeCart',JSON.stringify(breakTimeCart))
 };
+const toast=()=>{
+    window.alert(successfully done!)
+}
 
 return(
 <div className="personal-info">
@@ -129,7 +132,7 @@ return(
 </div>
 
 
-<button onClick={window.alert("successfully done!")} className="finish-btn">Activity completed</button>
+<button onClick={toast} className="finish-btn">Activity completed</button>
 </div>
 
 
