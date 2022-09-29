@@ -99,7 +99,7 @@ return(
 
 </div>
 <div className="new1">
-<h3>Add a Break</h3>
+<h3>Add A Break</h3>
 </div>
 
 <div className="time">
@@ -117,7 +117,7 @@ return(
 </div>
 
 <div className="total-break-time">
-<h2>Break time</h2>
+<h2>Break Time</h2>
 <p>{breaktime} Seconds</p>
 </div>
 
