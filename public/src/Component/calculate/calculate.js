@@ -85,7 +85,7 @@ return(
 <img src={img}alt="ami ace"/>
 <div className="adress">
 <p>Mohammd Ibrahim</p>
-<p>Noakhali,bangladesh</p>
+<p>Noakhali,Bangladesh</p>
 </div>
 </div>
 

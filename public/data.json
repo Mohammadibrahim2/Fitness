@@ -46,7 +46,7 @@
     "time":30,
     "quantity":0,
     "body":"Pull down is designed for developing the muscles of latissimus dorsi", 
-     "image":"./gym5.jpg"
+     "image":"https://acewebcontent.azureedge.net/exercise-library/large/158-1.jpg"
   },
   {
     "id": "6",
@@ -55,6 +55,6 @@
     "time":25,
     "quantity":0,
     "body":"Stability ball is a huge and  versatile piece of fitness equipment",
-     "image":"./gym6.jpg"
+     "image":"https://www.jefit.com/images/exercises/800_600/3124.jpg"
   }
 ]  
