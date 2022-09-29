@@ -24,7 +24,7 @@ for(const time in storedTime){
        }
        setBreakTime(savedTime)
 }
-},[calculate]);
+},[]);
 
 
  //getting stored data
@@ -76,7 +76,7 @@ return(
 <img src={img}alt="ami ace"/>
 <div className="adress">
 <p>Mohammd Ibrahim</p>
-<p>Noakhali,bangladesh</p>
+<p>Noakhali,,bangladesh</p>
 </div>
 </div>
 
