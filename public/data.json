@@ -6,7 +6,7 @@
     "time":25,
     "quantity":0,
     "body":"Dumbells are possibly the most known free weights in the world.",
-    "image":" https://thumbs.dreamstime.com/x/dumbell-weights-28198021.jpg"
+    "image":"https://thumbs.dreamstime.com/x/dumbell-weights-28198021.jpg"
 
   },
   {
@@ -26,7 +26,7 @@
     "time":35,
     "quantity":0,
     "body":"Treadmill is popular for improve cardiovascular indurance.",
-     "image":"./gym3.jpg"
+     "image":"https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg"
 
 
   },
@@ -37,7 +37,7 @@
     "time":40,
     "quantity":0,
     "body":"Foam roller is used to break down knots and stimulate bloodflow",
-     "image":"https://blog.myfitnesspal.com/wp-content/uploads/2…/5-Minute-Warmup-With-a-Foam-Roller-2-752x472.jpg"
+     "image":"https://image.shutterstock.com/image-photo/handsome-athletic-young-man-doing-600w-365909249.jpg"
   },
   {
     "id": "5",

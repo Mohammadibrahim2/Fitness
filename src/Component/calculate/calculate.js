@@ -43,7 +43,9 @@ for(const time of calculate){
 	totalTime=totalTime+time.time
 }
 
-
+const toastComming1=()=>{
+    window.alert("successfully completed")
+}
 
 const handleChangeTime=(breaktime)=>{
 
@@ -76,7 +78,7 @@ return(
 <img src={img}alt="ami ace"/>
 <div className="adress">
 <p>Mohammd Ibrahim</p>
-<p>Noakhali,,bangladesh</p>
+<p>Noakhali,Bangladesh</p>
 </div>
 </div>
 
@@ -120,7 +122,7 @@ return(
 </div>
 
 
-<button onClick={()=>toastComming()} className="finish-btn">Activity completed</button>
+<button onClick={toastComming1} className="finish-btn">Activity completed</button>
 </div>
 
 

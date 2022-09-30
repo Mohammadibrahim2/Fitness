@@ -1,9 +1,9 @@
 import React from 'react';
 import SingleCard from'../singleCard/singleCard';
 import Calculate from'../calculate/calculate';
-
 import'./cardSection.css'
 import {useState,useEffect}from 'react';
+
 
 const Card=()=>{
 const[allCard,setCard]=useState([])
@@ -91,7 +91,7 @@ return(
 }
 </div>
 <Calculate calculate={calculate}
-toastComming={toastComming}
+
  
  allCard={allCard}
 
@@ -141,14 +141,14 @@ about our application and aims to be both efficient and flexible.
 
  <h2>.What is the use of useEffect hook besides Api calling?</h2>
 
-<p>
-Fetching data
-1.Reading from local storage
-2.Registering and deregistering event listeners
+
+<p>1.Fetching data</p>
+<p>2.Reading from local storage</p>
+<p>3.Registering and deregistering event listeners
 React’s effects are a completely different animal 
 than the lifecycle methods of classbased components.
-The abstraction level differs, too.
-.setTimeInterval also woks in useEffect
+The abstraction level differs, too.</p>
+<p>4.setTimeInterval also woks in useEffect
 </p>
 
 </div>
